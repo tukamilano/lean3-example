@@ -3,3 +3,6 @@ name = "lean3-example"
 version = "0.1"
 lean_version = "leanprover-community/lean:3.50.3"
 path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "ce64cd319bb6b3e82f31c2d38e79080d377be451"}
